@@ -12,7 +12,7 @@ public class P3 {
                     forI = newSub.substring(0,newSub.length() -1);
                     break;
                 }
-                forI = newSub.substring(0,newSub.length());
+                forI = newSub;
             }
             result = forI.length() > result.length() ? forI : result;
         }
